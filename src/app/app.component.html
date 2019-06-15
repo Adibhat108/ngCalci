@@ -1,0 +1,102 @@
+<div class="container">
+    <div class="row">
+        <div class="col-sm">
+        </div>
+        <div class="col-sm">
+            <input type="text" class="text-right form-control-sm" [placeholder]="fullNum" disabled>
+            <div class="row">
+                <div class="col-3">
+                    <button class="btn btn-outline-primary" (click) = "keyPress($event.target.outerText)">7</button>
+
+                </div>
+                <div class="col-3">
+                    <button class="btn btn-outline-primary" (click) = "keyPress($event.target.outerText)">8</button>
+
+                </div>
+                <div class="col-3">
+                    <button class="btn btn-outline-primary" (click) = "keyPress($event.target.outerText)">9</button>
+
+                </div>
+                <div class="col-3">
+                    <button class="btn btn-outline-primary" (click) = "keyPress($event.target.outerText)">x</button>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <button class="btn btn-outline-primary" (click) = "keyPress($event.target.outerText)">4</button>
+
+                </div>
+                <div class="col-3">
+                    <button class="btn btn-outline-primary" (click) = "keyPress($event.target.outerText)">5</button>
+
+                </div>
+                <div class="col-3">
+                    <button class="btn btn-outline-primary" (click) = "keyPress($event.target.outerText)">6</button>
+
+                </div>
+                <div class="col-3">
+                    <button class="btn btn-outline-primary" (click) = "keyPress($event.target.outerText)">-</button>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <button class="btn btn-outline-primary" (click) = "keyPress($event.target.outerText)">1</button>
+
+                </div>
+                <div class="col-3">
+                    <button class="btn btn-outline-primary" (click) = "keyPress($event.target.outerText)">2</button>
+
+                </div>
+                <div class="col-3">
+                    <button class="btn btn-outline-primary" (click) = "keyPress($event.target.outerText)">3</button>
+
+                </div>
+
+                <div class="col-3">
+                    <button class="btn btn-outline-primary" (click) = "add()">+</button>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <button class="btn btn-outline-primary" (click) = "keyPress($event.target.outerText)">+/-</button>
+
+                </div>
+                <div class="col-3">
+                    <button class="btn btn-outline-primary" (click) = "keyPress($event.target.outerText)">0</button>
+
+                </div>
+                <div class="col-3">
+                    <button class="btn btn-outline-primary" (click) = "keyPress($event.target.outerText)">.</button>
+
+                </div>
+                <div class="col-3">
+                    <button class="btn btn-outline-primary" (click) = "keyPress($event.target.outerText)">=</button>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <!-- <button class="btn btn-outline-primary" (click) = "keyPress($event.target.outerText)">+/-</button> -->
+
+                </div>
+                <div class="col-3">
+                    <!-- <button class="btn btn-outline-primary" (click) = "keyPress($event.target.outerText)">0</button> -->
+
+                </div>
+                <div class="col-3">
+                    <!-- <button class="btn btn-outline-primary" (click) = "keyPress($event.target.outerText)">.</button> -->
+
+                </div>
+                <div class="col-3">
+                    <button class="btn btn-outline-primary" (click) = "clearNumber()">C</button>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-sm">
+        </div>
+    </div>
+</div>
